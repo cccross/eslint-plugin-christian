@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-christian",
+  "name": "@cccross/eslint-plugin-christian",
   "version": "1.0.0",
   "description": "Eslint plugin for personal projects",
   "main": "lib/index.js",
