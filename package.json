@@ -4,7 +4,7 @@
   "description": "Eslint plugin for personal projects",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/cccross/eslint-plugin-christian#readme",
   "engines": {
-    "node": "12.x || 14.x || >= 16"
+    "node": "14.x || >= 16"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
     "eslint": ">=8",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.3.0",
@@ -30,14 +32,12 @@
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
     "prettier": "^2.5.1",
-    "typescript": "^4.5.5",
-    "@typescript-eslint/eslint-plugin": "^5.11.0",
-    "@typescript-eslint/parser": "^5.11.0"
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
     "eslint": "8.5.0",
-    "eslint-plugin-christian": "file:",
     "eslint-plugin-eslint-plugin": "4.0.1",
-    "eslint-plugin-node": "11.1.0"
+    "eslint-plugin-node": "11.1.0",
+    "standard-version": "9.3.2"
   }
 }
