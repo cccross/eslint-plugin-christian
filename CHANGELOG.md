@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/cccross/eslint-plugin-christian/compare/v1.2.2...v1.3.0) (2022-02-12)
+
+
+### Features
+
+* Turn off some rules and warn in others ([4b21bac](https://github.com/cccross/eslint-plugin-christian/commit/4b21bac77763e08b453179a8c8a7c48b19a89d7d))
+
 ### [1.2.2](https://github.com/cccross/eslint-plugin-christian/compare/v1.2.1...v1.2.2) (2022-02-12)
 
 
