@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.4](https://github.com/cccross/eslint-plugin-christian/compare/v1.3.3...v1.3.4) (2022-03-26)
+
+
+### Bug Fixes
+
+* Allow declaration function hoisting in typescript ([f4e7b31](https://github.com/cccross/eslint-plugin-christian/commit/f4e7b3137513d4c4111dade37e3d8780efa8bfd8))
+
 ### [1.3.3](https://github.com/cccross/eslint-plugin-christian/compare/v1.3.2...v1.3.3) (2022-03-24)
 
 
